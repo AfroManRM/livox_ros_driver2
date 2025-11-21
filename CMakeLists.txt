@@ -1,3 +1,7 @@
+set(ROS_EDITION "ROS2" CACHE STRING "ROS edition to build against")
+set(HUMBLE_ROS "humble" CACHE STRING "Set ROS2 distro")
+
+
 # judge which cmake codes to use 
 if(ROS_EDITION STREQUAL "ROS1")
 
